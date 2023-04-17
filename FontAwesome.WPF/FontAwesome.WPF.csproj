@@ -15,6 +15,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="FontAwesome.Icon.png" />
+    <EmbeddedResource Include="ImageAwesome.Icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="..\Font-Awesome\fonts\FontAwesome.otf" Link="FontAwesome.otf" />
   </ItemGroup>
 
