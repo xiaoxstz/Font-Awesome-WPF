@@ -7,7 +7,7 @@
 	<UseWPF>true</UseWPF>
 	<AssemblyVersion>4.7.1.1</AssemblyVersion>
 	<Version>$(AssemblyVersion)</Version>
-	<Description>Fontawesome for WPF</Description>
+	<Description>Wpf components for the iconic font and CSS toolkit Font-Awesome.(Tanzi' Fontawesome for WPF)</Description>
 	<PackageTags>font</PackageTags>
 	<Authors>Tanzi</Authors>
 	<PackageProjectUrl>https://github.com/xiaoxstz/Font-Awesome-WPF</PackageProjectUrl>
