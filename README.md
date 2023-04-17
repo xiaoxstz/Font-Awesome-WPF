@@ -1,4 +1,4 @@
-# Font-Awesome-WPF/UWP
+# Font-Awesome-WPF
 
 WPF & UWP controls for the iconic font and CSS toolkit Font Awesome.
 
@@ -9,16 +9,22 @@ Font Awesome: http://fortawesome.github.io/Font-Awesome/
 
 [Font-Awesome-WPF README](README-WPF.md)
 
-## UWP
+**How to build?**
+1. Init the submodule "Font-Awesome" (in order to get file `FontAwesome.otf`)
+ `git submodule update --progress --init`
+2. Open the solution with Visual Studio (2022+), and then build it.
 
-[Font-Awesome-UWP README](README-UWP.md)
+**How to get the NuGet package?**
+1. Build the solution with `Release` configuration
+2. Select the project `FontAwesome.WPF` in the Solution Explorer, right click and then click `Pack`
+The .nuget file is generated into $OutputDir\$
 
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2014-2016 charri
+Copyright (c) 2014-2023 Tanzi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
