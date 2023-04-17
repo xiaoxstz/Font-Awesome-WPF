@@ -15,6 +15,7 @@
 	<PackageId>Tanzi.FontAwesome.WPF</PackageId>
   <PackageLicenseFile>LICENSE</PackageLicenseFile>
   <PackageReadmeFile>README.md</PackageReadmeFile>
+  <PackageIconUrl>https://github.com/xiaoxstz/Font-Awesome-WPF/blob/master/doc/fa-flag.64x64.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
