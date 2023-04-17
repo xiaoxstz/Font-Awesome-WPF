@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33209.295
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontAwesome.WPF", "FontAwesome.WPF\FontAwesome.WPF.csproj", "{5683F45E-A186-4CCA-B54F-D9A8161C7132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FontAwesome.WPF", "FontAwesome.WPF\FontAwesome.WPF.csproj", "{5683F45E-A186-4CCA-B54F-D9A8161C7132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.FontAwesome.WPF", "example-wpf\Example.FontAwesome.WPF.csproj", "{DCF06249-138E-4382-BABF-0981FBBF441A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,12 @@ Global
 		{5683F45E-A186-4CCA-B54F-D9A8161C7132}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5683F45E-A186-4CCA-B54F-D9A8161C7132}.Signed|Any CPU.ActiveCfg = Debug|Any CPU
 		{5683F45E-A186-4CCA-B54F-D9A8161C7132}.Signed|Any CPU.Build.0 = Debug|Any CPU
+		{DCF06249-138E-4382-BABF-0981FBBF441A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF06249-138E-4382-BABF-0981FBBF441A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF06249-138E-4382-BABF-0981FBBF441A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF06249-138E-4382-BABF-0981FBBF441A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF06249-138E-4382-BABF-0981FBBF441A}.Signed|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF06249-138E-4382-BABF-0981FBBF441A}.Signed|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
