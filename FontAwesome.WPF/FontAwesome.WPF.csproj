@@ -5,18 +5,25 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<UseWPF>true</UseWPF>
-	<AssemblyVersion>4.7.2</AssemblyVersion>
+	<AssemblyVersion>4.7.2.1</AssemblyVersion>
 	<Version>$(AssemblyVersion)</Version>
 	<Description>Wpf components for the iconic font and CSS toolkit Font-Awesome.(Tanzi' Fontawesome for WPF)</Description>
 	<PackageTags>font</PackageTags>
 	<Authors>Tanzi</Authors>
 	<PackageProjectUrl>https://github.com/xiaoxstz/Font-Awesome-WPF</PackageProjectUrl>
 	<PackageId>Tanzi.FontAwesome.WPF</PackageId>
+  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="FontAwesome.Icon.png" />
     <EmbeddedResource Include="ImageAwesome.Icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE" Link="LICENSE" Pack="true" PackagePath="\"/>
+    <None Include="..\README.md" Link="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
   <ItemGroup>
