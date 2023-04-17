@@ -14,4 +14,8 @@
 	<PackageId>Tanzi.FontAwesome.WPF</PackageId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Resource Include="..\Font-Awesome\fonts\FontAwesome.otf" Link="FontAwesome.otf" />
+  </ItemGroup>
+
 </Project>
