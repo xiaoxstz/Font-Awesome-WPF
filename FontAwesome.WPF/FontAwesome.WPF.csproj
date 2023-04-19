@@ -10,7 +10,7 @@
 	<Version>$(AssemblyVersion)</Version>
 	<Description>Wpf components for the iconic font and CSS toolkit Font-Awesome.(Tanzi' Fontawesome for WPF)</Description>
 	<PackageTags>font</PackageTags>
-	<Authors>Tanzi</Authors>
+	<Authors>charri;Tanzi</Authors>
 	<PackageProjectUrl>https://github.com/xiaoxstz/Font-Awesome-WPF</PackageProjectUrl>
   <PackageId>Tanzi.$(AssemblyName)</PackageId>
   <PackageLicenseFile>LICENSE</PackageLicenseFile>
