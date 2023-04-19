@@ -12,7 +12,7 @@
 	<PackageTags>font</PackageTags>
 	<Authors>Tanzi</Authors>
 	<PackageProjectUrl>https://github.com/xiaoxstz/Font-Awesome-WPF</PackageProjectUrl>
-	<PackageId>Tanzi.FontAwesome.WPF</PackageId>
+  <PackageId>Tanzi.$(AssemblyName)</PackageId>
   <PackageLicenseFile>LICENSE</PackageLicenseFile>
   <PackageReadmeFile>README.md</PackageReadmeFile>
   <PackageIconUrl>https://github.com/xiaoxstz/Font-Awesome-WPF/blob/master/doc/fa-flag.64x64.png</PackageIconUrl>
